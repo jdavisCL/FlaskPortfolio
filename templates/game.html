@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block head %} {% endblock %}
+
+{% block body %} 
+{% include 'layouts/navbar.html' %}
+
+<div class="text-center">
+  <h1>Check out this platformer game I made.</h1>
+</div>
+
+<div>
+    <iframe
+      style="position:absolute;left:10%;width:80%;height:70%;"
+      src="https://davisjake.github.io/spiral_platformer/?embed=1&nofooter=1"
+      allowfullscreen="allowfullscreen"
+      sandbox="allow-popups allow-forms allow-scripts allow-same-origin"
+      frameborder="0"
+    ></iframe>
+</div>
+
+{% endblock %}
